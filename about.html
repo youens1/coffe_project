@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Coffeeroasters</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css?family=Fraunces:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Barlow:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic" rel="stylesheet" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.1.0/remixicon.css">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script>
+        tailwind.config = {
+            theme: {
+            extend: {
+                fontFamily: { 
+                    Frau : ["Fraunces", "Arial"],
+                    barlow : ["Barlow", "Arial"],
+                },
+                colors: {
+                    green:"#0E8784",
+                    Dark: "#333D4B",
+                    Paleorange: "#FDD6BA",
+                    Grey: "#83888F",
+                    lightC: "#FEFCF7",
+                    darkgreen:"#2C343E",
+                },
+            },
+            },
+        };
+        </script>
+    </head>
+
+    <body class="lg:px-20 md:px-10 px-6">
+        <header>
+            <nav class="flex justify-between items-center lg:py-[47px] md:py-10 py-8">
+                <img src="images/logo.png" class="w-[236px] h-[26px]" alt="logo">
+                <div>
+                    <ul class=" md:flex items-center gap-[33px] text-Grey text-Barlow text-[12px] font-bold py-[3px] hidden">
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="">ABOUT US</a></li>
+                        <li><a href="">CREATR YOUR PLAN</a></li>
+                    </ul>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="15" viewBox="0 0 16 15" fill="none" class="md:hidden">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M0 1.5C0 0.671573 0.671573 0 1.5 0H14.5C15.3284 0 16 0.671573 16 1.5C16 2.32843 15.3284 3 14.5 3H1.5C0.671573 3 0 2.32843 0 1.5ZM0 7.5C0 6.67157 0.671573 6 1.5 6H14.5C15.3284 6 16 6.67157 16 7.5C16 8.32843 15.3284 9 14.5 9H1.5C0.671573 9 0 8.32843 0 7.5ZM1.5 12C0.671573 12 0 12.6716 0 13.5C0 14.3284 0.671573 15 1.5 15H14.5C15.3284 15 16 14.3284 16 13.5C16 12.6716 15.3284 12 14.5 12H1.5Z" fill="#333D4B"/>
+                    </svg>  
+                </div>
+            </nav>
+            <div class="bg-[url(images/headerabout.png)] bg-cover bg-center lg:pl-[86px] md:pl-[58px] lg:py-[137px] md:py[118px] px-5 md:px-0 pt-[111px] pb-[87px] rounded-md text-lightC text-center md:text-start  ">
+                <h1 class="font-Frau font-black lg:text-7xl md:text-5xl font-bold lg:w-[493px] md:w-[329px] text-[40px] leading-10	 ">About Us</h1>
+                <p class="font-barlow font-extralight text-4 lg:w-[445px] md:w-[398px] mt-8 ">Coffeeroasters began its journey of exotic discovery in 1999, highlighting stories of coffee from around the world. We have since been dedicated to bring the perfect cup - from bean to brew - in every shipment.</p>
+            </div>
+        </header>
+        <main>
+            <section class="flex flex-col md:flex-row items-center gap-12 md:gap-[69px] lg:gap-[125px] mt-[120px] md:mt-[144px] lg:mt-[168px] text-center md:text-start">
+            <img src="images/maker.png" alt="man" class="w-[327px] h-[400px] md:w-[281px] md:h-[470px] lg:w-[445px] lg:h-[520px] rounded-md object-cover "/>
+            <div class="text-Dark space-y-[30px] lg:space-y-8">
+                <h3 class="font-Frau text-[32px] font-bold text-Dark leading-[48px] lg:text-[40px] ">Our commitment</h3>
+                <p class="opacity-80 font-barlow text-[15px] text-Dark leading-[25px] lg:text-[16px] lg:leading-[26px] ">
+                    We’re built on a simple mission and a commitment to doing good along
+                    the way. We want to make it easy for you to discover and brew the
+                    world’s best coffee at home. It all starts at the source. To locate
+                    the specific lots we want to purchase, we travel nearly 60 days a year
+                    trying to understand the challenges and opportunities in each of these
+                    places. We collaborate with exceptional coffee growers and empower a
+                    global community of farmers through with well above fair-trade
+                    benchmarks. We also offer training, support farm community
+                    initiatives, and invest in coffee plant science. Curating only the
+                    finest blends, we roast each lot to highlight tasting profiles
+                    distinctive to their native growing region.
+                </p>
+            </div>
+            </section>
+            <section class="relative lg:pt-[88px] lg:px-[85px] bg-darkgreen rounded-md  md:mt-[304px] lg:mt-[244px] lg:h-[474px] md:h-[488px] lg:mb-[168px] md:pt-[224px] mt-[192px]">
+                <div class="text-lightC flex lg:block lg:text-start items-center flex-col text-center px-6 md:px-[74px] lg:px-0 pt-[142px] md:pt-0 pb-[61px] md:pb-0">
+                    <h3 class="font-Frau font-bold text-[32px] leading-[48px]  lg:text-[40px] mb-8">Uncompromising quality</h3>
+                    <p class="opacity-80 font-barlow text-[15px] leading-[25px] lg:text-[16px] lg:leading-[26px] lg:w-[540px]">
+                        Although we work with growers who pay close attention to all stages of
+                        harvest and processing, we employ, on our end, a rigorous quality
+                        control program to avoid over-roasting or baking the coffee dry. Every
+                        bag of coffee is tagged with a roast date and batch number. Our goal
+                        is to roast consistent, user-friendly coffee, so that brewing is easy
+                        and enjoyable.
+                    </p>
+                </div>
+                <img src="images/coffeabout.png" alt="cofee" class="absolute top-0 lg:right-[5%] right-[50%] -translate-y-[45%] lg:-translate-y-[20%] translate-x-[50%] lg:translate-x-[4%] rounded-lg h-[156px] w-[279px] md:h-[320px] md:w-[573px] lg:h-[474px] lg:w-[445px] object-cover"/>
+            </section>
+            <section class="lg:pl-[85px] text-center md:text-start mt-[120px] md:mt-[144px] lg:mt-[168px]">
+            <h3 class="text-headers font-bold text-Grey font-Frau  text-[24px] leading-8 mb-[72px]">Our headquarters</h3>
+    
+            <div class="grid md:grid-cols-3 gap-20 md:gap-2.5 lg:gap-[95px] mt-20 md:mt-0">
+                <div class="text-center md:text-start flex flex-col items-center md:items-start">
+                    <img src="images/uk.png" alt="uk" class="mb-5 md:mb-12 text-primary lg:mb-11"/>
+                    <h4 class="text-[24px] leading-8 lg:text-[32px] lg:leading-9 font-Frau mb-5 text-Dark font-bold">United Kingdom</h4>
+                    <ul class="text-[15px] leading-[25px] lg:text-[16px] lg:leading-[26px] font-barlow text-Dark">
+                        <li>68 Asfordby Rd</li>
+                        <li>Alcaston</li>
+                        <li>SY6 1YA</li>
+                        <li>+44 1241 918425</li>
+                    </ul>
+                </div>
+                <div class="text-center md:text-start flex flex-col items-center md:items-start">
+                    <img src="images/canada.png" alt="canada" class="mb-5 md:mb-12 text-primary xl:mb-11"/>
+                    <h4 class="text-[24px] leading-8 lg:text-[32px] lg:leading-9 font-Frau mb-5 text-Dark font-bold">Canada</h4>
+                    <ul class="text-[15px] leading-[25px] lg:text-[16px] lg:leading-[26px] font-barlow text-Dark">
+                        <li>1528 Eglinton Avenue</li>
+                        <li>Toronto</li>
+                        <li>Ontario M4P 1A6</li>
+                        <li>+1 416 485 2997</li>
+                    </ul>
+                </div>
+                <div class="text-center md:text-start flex flex-col items-center md:items-start">
+                    <img src="images/aust.png" alt="australia" class="mb-5 md:mb-12 text-Dark lg:mb-11"/>
+                    <h4 class="text-[24px] leading-8 lg:text-[32px] lg:leading-9 font-Frau mb-5 text-Dark font-bold">Australia</h4>
+                    <ul class="text-[15px] leading-[25px] lg:text-[16px] lg:leading-[26px] font-barlow text-Dark">
+                        <li>36 Swanston Street</li>
+                        <li>Kewell</li>
+                        <li>Victoria</li>
+                        <li>+61 4 9928 3629</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        </main>
+        <footer class="p-14 lg:py-12 lg:px-[80px] bg-darkgreen font-barlow text-Grey   lg:mt-[150px] md:mt-[144px] mt-[120px] flex flex-col lg:flex-row items-center lg:justify-between mb-[72px] lg:mb-[88px]">
+            <div class="flex lg:gap-[102px] flex-col lg:flex-row items-center">
+                <img src="images/lightlogo.png" alt="logo" class="mb-12 md:mb-8 lg:mb-0.5 w-[236px]"/>
+                <ul class="flex flex-col md:flex-row items-center gap-6 md:gap-[33px]">
+                    <li><a href="/">HOME</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="#">CREATE YOUR PLAN</a></li>
+                </ul>
+            </div>
+            <img src="images/social.png" alt="socials" class="w-[120px] mt-12 md:mt-[65px] lg:mt-0"/>
+        </footer>
+    </body>
+</html>
